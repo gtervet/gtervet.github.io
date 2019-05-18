@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+<style>
     #chunk-game {
       background-color: black;
       display: block;
@@ -9,9 +9,23 @@
       margin-right: auto;
     }
   </style>
+
+  <link rel="stylesheet"
+  type="text/css"
+  href="snake.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+  <h1> Welcome to your Waiting Game<h1>
   <canvas id="chunk-game" height="600" width="800"></canvas>
+
+  <div id="button-div">
+  <button type="button"
+    onclick="location.reload()">Restart Game</button>
+
 
   <script type="text/javascript" src="chunk.js"></script>
   <script type="text/javascript" src="snake.js"></script>
