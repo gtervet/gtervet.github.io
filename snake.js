@@ -1,7 +1,7 @@
 //create snake//
 var draw = function(snakeToDraw, apple) {
-  var drawableSnake = { color: "green", pixels: snakeToDraw };
-  var drawableApple = { color: "red", pixels: [apple] };
+  var drawableSnake = { color: "lightblue", pixels: snakeToDraw };
+  var drawableApple = { color: "lightpurple", pixels: [apple] };
   var drawableObjects = [drawableSnake, drawableApple];
   CHUNK.draw(drawableObjects);
 }
