@@ -1,5 +1,6 @@
 body {
   background-color:blue;
+  font-family: 'Inconsolata', monospace;
 }
 
 #button-div {
@@ -12,7 +13,7 @@ button {
   margin: 20px;
   font-size: 30px;
   font-family: 'Inconsolata', monospace;
-  
+
 
 }
 
